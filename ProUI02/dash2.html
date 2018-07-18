@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Farid Gulmammadov">
+    <meta name="description" content="site description">
+    <meta name="keywords" content="pro, ui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/dash.css">
+   
+    <title>Dashboard2</title>
+</head>
+
+<body>
+    <section class="container-fluid">
+        <div id="sidemenu" class="sidebar">
+            <div id="pro" class="sidebar">
+                <i class="fa fa-bolt"></i>
+                <h4>Pro<span>UI</span></h4>
+            </div>
+            <div id="profile" class="sidebar">
+                <img src="images/photo.png">
+                <p>john Doe</p>
+                <div id="ipro">
+                    <ul>
+                        <li>
+                            <i id="user" class="fas fa-user" data-toggle="tooltip" data-placement="bottom" title="Profile"></i>
+                        </li>
+                        <li>
+                            <i id="env" class="fas fa-envelope" data-toggle="tooltip" data-placement="bottom" title="Messages"></i>
+                        </li>
+                        <li>
+                            <i id="set" class="fas fa-cog" data-toggle="tooltip" data-placement="bottom" title="Settings"></i>
+                        </li>
+                        <li>
+                            <i id="out" class="fas fa-sign-out-alt" data-toggle="tooltip" data-placement="bottom" title="Logout"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div id="circles">
+                <div id="firstline" class="sidebar">
+                    <div id="c01" class="circle" data-toggle="tooltip" title="Night"></div>
+                    <div id="c02" class="circle" data-toggle="tooltip" title="Amethyst"></div>
+                    <div id="c03" class="circle" data-toggle="tooltip" title="Modern"></div>
+                    <div id="c04" class="circle" data-toggle="tooltip" title="Autumn"></div>
+                    <div id="c05" class="circle" data-toggle="tooltip" title="Flatie"></div>
+                    <div id="c06" class="circle" data-toggle="tooltip" title="Spring"></div>
+                    <div id="c07" class="circle" data-toggle="tooltip" title="Fancy"></div>
+                </div>
+                <div id="secondline">
+                    <div id="c08" class="circle" data-toggle="tooltip" title="Fire"></div>
+                    <div id="c09" class="circle" data-toggle="tooltip" title="Coral"></div>
+                    <div id="c10" class="circle" data-toggle="tooltip" title="Lake"></div>
+                    <div id="c11" class="circle" data-toggle="tooltip" title="Forest"></div>
+                    <div id="c12" class="circle" data-toggle="tooltip" title="Waterlilly"></div>
+                    <div id="c13" class="circle" data-toggle="tooltip" title="Emerald"></div>
+                    <div id="c14" class="circle" data-toggle="tooltip" title="Blackberry"></div>
+                </div>
+            </div>
+            <div id="dashbrd" class="sidebar">
+                <div id="dash01" class="sidebtn buttons">
+                    <i class="far fa-clock"></i>
+                    <p class="sidebtn">Dashboard</p>
+                </div>
+                <div id="dash02" class="sidebtn buttons">
+                    <i class="fas fa-leaf"></i>
+                    <p class="sidebtn">Dashboard 2</p>
+                </div>
+                <div id="mailbtn" class="sidebtn buttons">
+                    <i id="env" class="fas fa-envelope"></i>
+                    <p>Email Templates</p>
+                </div>
+                <div id="ecom" class="sidebtn buttons">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>eCommerce</p>
+                    <div class="aleft">
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                </div>
+                <div id="ecomsub">
+                    <div class="submenu">
+                        <p>Dashboards</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Orders</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Order view</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Products</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Product edit</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Customer view</p>
+                    </div>
+                </div>
+                <div id="widget" class="sidebtn buttons">
+                    <p>WIDGET KIT</p>
+                    <div id="ikit">
+                        <i class="far fa-lightbulb"></i>
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                </div>
+                <div id="stats" class="sidebtn buttons">
+                    <i class="fas fa-signal"></i>
+                    <p>Statistics</p>
+                </div>
+                <div id="social" class="sidebtn buttons">
+                    <i class="fas fa-share-alt"></i>
+                    <p>Social</p>
+                </div>
+                <div id="media" class="sidebtn buttons">
+                    <i class="fas fa-film"></i>
+                    <p>Media</p>
+                </div>
+                <div id="links" class="sidebtn buttons">
+                    <i class="fas fa-link"></i>
+                    <p>Links</p>
+                </div>
+                <div id="widget" class="sidebtn buttons">
+                    <p>DESIGN KIT</p>
+                    <div id="dkit">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                </div>
+                <div id="ui_drop" class="sidebtn buttons">
+                    <i class="fas fa-user"></i>
+                    <p>User Interface</p>
+                    <div class="aleft">
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                </div>
+                <div id="uisub">
+                    <div class="submenu">
+                        <p>Grid & Blocks</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Draggable Blocks</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Typography</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Buttons & Dropdowns</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Navigation & more</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Horizontal menu</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Progress & loading</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Page Preloader</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Color Themes</p>
+                    </div>
+                </div>
+                <div id="eforms" class="sidebtn buttons">
+                    <i class="fab fa-wpforms"></i>
+                    <p>Forms</p>
+                    <div class="aleft">
+                        <i class="fa fa-angle-left"></i>
+                    </div>
+                </div>
+                <div id="formsub">
+                    <div class="submenu">
+                        <p>General</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Components</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Validation</p>
+                    </div>
+                    <div class="submenu">
+                        <p>Wizard</p>
+                    </div>
+                    </div>
+                    <div id="tables" class="sidebtn buttons">
+                        <i class="fa fa-calculator"></i>
+                        <p>Tables</p>
+                        <div class="aleft">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                    </div>
+                    <div id="tablesub">
+                        <div class="submenu">
+                            <p>Grid & Blocks</p>
+                        </div>
+                        <div class="submenu">
+                            <p>Draggable Blocks</p>
+                        </div>
+                        <div class="submenu">
+                            <p>Typography</p>
+                        </div>
+                        <div class="submenu">
+                            <p>Buttons & Dropdowns</p>
+                        </div>
+                        </div>
+                        <div id="iconset" class="sidebtn buttons">
+                            <i class="fa fa-calculator"></i>
+                            <p>Icon Sets</p>
+                            <div class="aleft">
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+                        </div>
+                        <div id="iconsub">
+                            <div class="submenu">
+                                <p>Font Awesome</p>
+                            </div>
+                            <div class="submenu">
+                                <p>Gliphicons Pro</p>
+                            </div>
+                            </div>
+                            <div id="layouts" class="sidebtn buttons">
+                                <i class="fa fa-calculator"></i>
+                                <p>Page Layouts</p>
+                                <div class="aleft">
+                                    <i class="fa fa-angle-left"></i>
+                                </div>
+                            </div>
+                            <div id="layoutsub">
+                                <div class="submenu">
+                                    <p>Static</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Static+fixed footer</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Fixed top header</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Fixed bottom header</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Mini main sidebar</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Partial main sidebar</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Visible Main Sidebar</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Partial Alternative sidebar</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Visible Alternative sidebar</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>No Sidebars</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Both Sidebar Partials</p>
+                                </div>
+                                <div class="submenu">
+                                    <p>Animated Sidebar Transitions</p>
+                                </div>
+                                </div>
+                                <div id="ready" class="sidebtn buttons">
+                                    <i class="fa fa-calculator"></i>
+                                    <p>Ready Pages</p>
+                                    <div class="aleft">
+                                        <i class="fa fa-angle-left"></i>
+                                    </div>
+                                </div>
+                                <div id="readysub">
+                                    <div class="submenu">
+                                        <p>Errors</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Get started</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Search results(4)</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Article</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>User profiles</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Contact</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Visible Main Sidebars</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>E-learning</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Message center</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Chats</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Timeline</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Files</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Tickets</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Bug tracker</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Tasks</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>FAQ</p>
+                                    </div>
+                                </div>
+                                <div id="component" class="sidebtn buttons">
+                                    <i class="fa fa-calculator"></i>
+                                    <p>Components</p>
+                                    <div class="aleft">
+                                        <i class="fa fa-angle-left"></i>
+                                    </div>
+                                </div>
+                                <div id="compsub">
+                                    <div class="submenu">
+                                        <p>3 level Menu</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Maps</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Charts</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Gallery</p>
+                                    </div>
+                                    <div id="carslide" class="submenu">
+                                        <p>Carousel</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Calendar</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>CSS3 animation</p>
+                                    </div>
+                                    <div class="submenu">
+                                        <p>Syntax Highlighting</p>
+                                    </div>
+                                </div>
+            </div>
+            <a href = "#pro"><button id="topbtn02"><i class="fas fa-angle-double-up"></i></button></a>  
+        </div> 
+        <div id="main-container">
+            <div id="navbar">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="leftpart">
+                            <div id="mobmenu">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <div id="setting">
+                                <i class="fa fa-wrench"></i>
+                            </div>
+                            <input id="search" type="text" placeholder="Search..">
+                        </div>
+                        <div id="rightnav" class="float-lg-right">
+                            <div id="share">
+                                <i class="fas fa-share-alt"></i>
+                                <div id="count">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                            <div id="smallphoto">
+                                <img src="images/ismall.png">
+                                <i class="fa fa-angle-down"></i>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="icontainer">
+                    <div class="row resetrow">
+                        <div class="col-lg-12">
+                            <div id="sqrs">
+                            <div class="isquares">
+                                <i class="fas fa-home"></i>
+                                <p>Home</p>
+                            </div>
+                            <div class="isquares">
+                                    <i class="fas fa-signal"></i>
+                                    <p>Sales</p>
+                                </div>
+                                <div id="mproje" class="isquares">
+                                        <i class="fas fa-briefcase"></i>
+                                        <p>Projects</p>
+                                    </div>
+                                    <div id="mmovie" class="isquares">
+                                            <i class="fab fa-youtube-square"></i>
+                                            <p>Movies</p>
+                                        </div>
+                                        <div class="isquares">
+                                                <i class="fas fa-music"></i>
+                                                <p>Music</p>
+                                            </div>
+                                            <div id="mapp" class="isquares">
+                                                    <i class="fas fa-cubes"></i>
+                                                    <p id="pap">Apps</p>
+                                                </div>
+                                                <div id="mpen" class="isquares">
+                                                        <i class="fas fa-pencil-alt"></i>
+                                                        <p>Profile</p>
+                                                    </div>
+                                                    <div id="msetting" class="isquares">
+                                                            <i class="fas fa-cogs"></i>
+                                                            <p>Settings</p>
+                                                        </div>
+                                                        
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="servstats">
+                            <img class="diagnose" src="images/diaqnoz.png">
+                            <div class="weeksales">
+                                <p><span>Sales</span> This Week</p>
+                                <button id="downbtn01" class="idown"><i class="fas fa-sort-down"></i></button>
+                            </div>
+                                <img class="bars" src="images/barchart.png">
+                                <div class="weeksales">
+                                    <p><span>Earnings</span> This Week</p>
+                                    <button id ="downbtn02" class="idown"><i class="fas fa-sort-down"></i></button>
+                                </div>  
+                                <img class="bars" src="images/barchart02.png"> 
+                                <div class="weeksales">
+                                    <p><span>Quick</span> Post</p>
+                                    <button class="idown"><i class="fas fa-pencil-alt"></i></button>
+                                </div> 
+                                <form id="myform">
+                                    <input class="textinput" type = "text" placeholder="Enter a title"><br>
+                                    <input class="textinput" type = "text" value="Add a tag">
+                                    <br>
+                                <textarea id="textbox" rows="4" cols="50" name="comment" form="usrform" placeholder="Enter content"></textarea>
+
+                                </form>
+                                <div id="formbtns">
+                                    <button class="actions" id="publish"><i class="fas fa-check"></i> Publish</button>
+                                <button class="actions" id="reset"><i class="fas fa-redo-alt"></i> Reset</button>
+                                </div>
+                               <div id="downlist01">
+                                   <ul>
+                                       <li>This week</li>
+                                       <li>This month</li>
+                                       <li>This year</li>
+                                   </ul>
+                               </div> 
+                               <div id="downlist02">
+                                <ul>
+                                    <li>This week</li>
+                                    <li>This month</li>
+                                    <li>This year</li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="plan2" class="newsplan">
+                            <div class="weeksales">
+                                <p><span>Latest</span> News</p>
+                                <button id="newset" class="idown"><i class="fas fa-cog"></i></button>
+                            </div>
+                            <div class="clear"></div>
+                            <div id="jordan">
+                                <div class="lpart">
+                                    <p id="leftnote1">just now</p>
+                                    <img class="leftsign" src="images/plane.png">
+                                </div>
+                                <div id="text01">
+                                    <p class="icontitle">jordan Carter</p>
+                                    <br>
+                                    <span>The trip was amazing and a life changing experience</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div id="below">
+                                    <button id="read">
+                                        <i class="fas fa-file"></i> Read the article</button>
+                                    <div class="couples">
+                                        <img id="firimg" src="images/mountain.jpg">
+                                        <img id="secimg" src="images/flower.jpg">
+                                        <div id="myModal" class="modal">
+                                            <span class="close">&times;</span>
+                                            <button id="ileft" onclick = "plusImg(-1)"><i class="fa fa-angle-left"></i></button>
+                                            <img class="modal-content" id="img01"> 
+                                            <button id="iright" onclick = "plusImg(+1)"><i class="fa fa-angle-right"></i></button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div id="Admin">
+                                <div class="lpart">
+                                    <p id="leftnote2">5 min ago</p>
+                                    <img class="leftsign" src="images/file.png">
+                                </div>
+                                <div id="text02">
+                                    <p class="icontitle">Administrator</p>
+                                    <br>
+                                    <span>
+                                        <strong>Free courses</strong> for all our customers at A1 Conference Room - 9:00 am tomorrow</span>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div id="Ella">
+                                <div class="lpart">
+                                    <p id="leftnote3">3 hours ago</p>
+                                    <img class="leftsign" src="images/koktel.png">
+                                </div>
+                                <div id="text03">
+                                    <p class="icontitle">Ella Winter</p>
+                                    <br>
+                                    <span>
+                                        <strong>Happy hour!</strong> Free drinks at Cafe Bar all day long!</span>
+                                </div>    
+                            </div>
+                            <div class="clear"></div>
+                             <div class="row">
+                                    <div class="col-md-2">
+                                        <div></div>
+                                        </div>
+                                        <div class="col-md-10">  
+                                        <img class="img-fluid" src="images/map.png">
+                                        <!-- <div id="googleMap" style="width:90%;height:400px;"></div> -->
+                                    </div>
+                                </div>
+                            <div class="clear"></div>
+                            <div id="Woods">
+                                <div class="lpart">
+                                    <p id="leftnote4">yesterday</p>
+                                    <img class="leftsign" src="images/fork.png">
+                                </div>
+                                <div id="text04">
+                                    <p class="icontitle">Patricia Woods</p>
+                                    <br>
+                                    <span>Today I had the launch of my life. It was delicious</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="couples">
+                                    <img id="thirdimg" src="images/manqal.jpg">
+                                </div>
+                            </div>
+                            <div id="Admin2">
+                                <div class="lpart">
+                                    <p id="leftnote5">2 days ago</p>
+                                    <img class="leftsign" src="images/smile.png">
+                                </div>
+                                <div id="text05">
+                                    <p class="icontitle">Administrator</p>
+                                    <br>
+                                    <span>To thank you all for your support we would like to let you know that you will receive
+                                        free feature updates for life! You are awesome!</span>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div id="Nicole">
+                                <div class="lpart">
+                                    <p id="leftnote6">1 week ago</p>
+                                    <img class="leftsign" src="images/pen.png">
+                                </div>
+                                <div id="text06">
+                                    <p class="icontitle">Nicole Ward</p>
+                                    <br>
+                                    <span>Consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida, urna
+                                        ligula hendrerit nibh, ac cursus nibh sapien in purus. Mauris tincidunt tincidunt
+                                        turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper,
+                                        odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec
+                                        lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor
+                                        erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas
+                                        fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed
+                                        consectetur ut, interdum quis nisi. Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales!
+                                        Suspendisse potenti. Aliquam tincidunt sollicitudin sem nec ultrices. Sed at
+                                        mi velit. Ut egestas tempor est, in cursus enim venenatis eget! Nulla quis ligula
+                                        ipsum.</span>
+                                        <br>
+                                    <button id="view">View More..</button>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="footer" src="images/footer.png">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a id="item01" class="dropdown-item" href="#">Account</a>
+                        <a id="item02" class="dropdown-item" href="#">Updates
+                            <span>10</span>
+                            <i class="far fa-clock"></i>
+                        </a>
+                        <a id="item03" class="dropdown-item" href="#">Messages
+                            <span>5</span>
+                            <i class="far fa-envelope"></i>
+                        </a>
+                        <a id="item04" class="dropdown-item" href="#">Subscriptions
+                            <span>3</span>
+                            <i class="fas fa-magnet"></i>
+                        </a>
+                        <a id="item05" class="dropdown-item" href="#">FAQ
+                            <span>11</span>
+                            <i class="fas fa-question"></i>
+                        </a>
+                        <hr>
+                        <a id="item06" class="dropdown-item" href="#">Profile
+                            <i id="i01" class="fas fa-user"></i>
+                        </a>
+                        <a id="item07" class="dropdown-item" href="#">Settings
+                            <i id="i02" class="fas fa-cog"></i>
+                        </a>
+                        <hr>
+                        <a id="item08" class="dropdown-item" href="#">Lock account
+                            <i id="i03" class="fas fa-lock"></i>
+                        </a>
+                        <a id="item09" class="dropdown-item" href="#">Logout
+                            <i id="i04" class="fas fa-ban"></i>
+                        </a>
+                        <a id="item10" class="dropdown-item" href="#">Activity</a>
+                    </div>
+                </div>
+                <div id="dstyles">
+                    <p>Header style</p>
+                    <button id="light" class="LD">Light</button>
+                    <button id="dark" class="LD">Dark</button>
+                    <p>Page style</p>
+                    <button id="default" class="DA">Default</button>
+                    <button id="alternative" class="DA">Alternative</button>
+                </div>
+                </div>
+               
+            </section>
+
+            <div id="chatbar02">
+                <div class="chatui">
+                    <h4>Chat<span>UI</span></h4>
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <div id="chatimgs" class="fleximg">
+                   <img src="images/ch01.jpg">
+                   <img src="images/ch02.jpg">
+                   <img src="images/ch03.jpg">
+                   <img src="images/ch04.jpg">
+                   <img src="images/ch05.jpg">
+                   <img src="images/ch06.jpg">
+                   <img src="images/ch07.jpg">
+                   <img src="images/ch08.jpg">
+                   <img src="images/ch09.jpg">
+                   <img src="images/ch10.jpg">
+                   <img src="images/ch11.jpg">
+                   <img src="images/ch12.jpg">
+                </div>
+                <div class="chatui">
+                    <h4>Activity<span>UI</span></h4>
+                    <i class="fas fa-globe-asia"></i>
+                </div> 
+                <div class="upgrades">
+                    <img src="images/upgrades.png">
+                </div>
+                <div class="chatui">
+                    <h4>Messages<span>UI (5)</span></h4>
+                    <i class="fas fa-envelope"></i>
+                </div> 
+                <div class="upgrades">
+                    <img src="images/upnews.png">
+                </div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            <script src="bootstrap/js/bootstrap.min.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/dash.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('[data-toggle="tooltip"]').tooltip();
+                });
+
+            </script>
+           
+        </body>
+        
+        </html>
